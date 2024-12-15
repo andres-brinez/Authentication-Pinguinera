@@ -1,0 +1,38 @@
+/* style.css */
+main.auth {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:auto;
+  background-color: #FAF8F8;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+@media (max-width: 1200px) {
+  .auth__image {
+    display: none;
+  }
+
+  main.auth {
+    height: 44vh;
+  }
+
+  main.authLogin {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 600px) {
+  main.auth {
+    height: 55vh;
+  }
+
+  main.authLogin {
+    height: 50vh;
+  }
+}

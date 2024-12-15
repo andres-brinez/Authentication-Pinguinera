@@ -1,0 +1,13 @@
+@import './normalize.css';
+
+:root {
+    font-family: "Poppins", sans-serif;
+    background: #FAF8F8;
+}
+
+:root {
+    --color-primary: #136696;
+    --color-secondary: #5a97e6;
+    --color-light: #FAF8F8;
+    --color-dark: #212529;
+}
